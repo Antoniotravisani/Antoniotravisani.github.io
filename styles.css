@@ -1,0 +1,66 @@
+/* Estilos para a navbar */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #903d3d;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+
+ 
+  
+  /* Estilos para a seção Sobre Mim */
+  .bio {
+    
+    align-items: center;
+  }
+  
+  .bio img {
+    width: 400px;
+    border-radius: 0%;
+    margin-right: 20px;
+  }
+  
+  .contact-me a {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .contact-me a i {
+    margin-right: 5px;
+  }
+  
+  /* Estilos para a seção de projetos */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .project-box {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Estilos para o footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  footer p {
+    margin: 5px;
+  }
+  
