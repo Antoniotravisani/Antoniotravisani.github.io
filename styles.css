@@ -1,66 +1,80 @@
 /* Estilos para a navbar */
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    background-color: #903d3d;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #333;
-    padding: 10px;
-  }
 
- 
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #903d3d;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+}
+
+h1 {
+color: rgb(43, 18, 18);
+text-align: center;
+
+font-size: 2em;
+text-decoration-line: underline;
+text-decoration-color: rgb(7, 5, 80); 
+text-decoration-line: underline;
+text-decoration-thickness: auto;
+}
+
+.bio {
   
-  /* Estilos para a seção Sobre Mim */
-  .bio {
-    
-    align-items: center;
-  }
+  align-items: center;
+}
+
+.bio img {
+  width: 550px;
+  border-radius: 0%;
+  margin-right: 20px;
+}
+
+.contact-me a {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+  color: #04045f;
+  text-decoration: none;
+}
+
+.contact-me a i {
+  margin-right: 5px;
+}
+
+/* Estilos para a seção de projetos */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+
+.project-box {
   
-  .bio img {
-    width: 400px;
-    border-radius: 0%;
-    margin-right: 20px;
-  }
+  padding: 20px;
+  text-align: left;
+  margin-left: 30%;
+}
+
+/* Estilos para o footer */
+footer {
+  background-color: #fbfbfb;
+  color: #04045f;
   
-  .contact-me a {
-    display: inline-flex;
-    align-items: center;
-    margin-right: 10px;
-    color: #333;
-  }
-  
-  .contact-me a i {
-    margin-right: 5px;
-  }
-  
-  /* Estilos para a seção de projetos */
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-  }
-  
-  .project-box {
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-  
-  /* Estilos para o footer */
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  footer p {
-    margin: 5px;
-  }
-  
+  padding: 20px;
+  text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  border-top: #f8f1f1;
+}
+
+footer p {
+  margin: 5px;
+}
